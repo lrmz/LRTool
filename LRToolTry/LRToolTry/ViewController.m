@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LRPerson.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    LRPerson *p =[LRPerson new];
+    
+    p.name = @"小军";
+    
+    [p eat];
 }
 
 

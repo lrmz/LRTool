@@ -13,6 +13,7 @@
 		187F3E0D1EBB12C000ACAAA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187F3E0B1EBB12C000ACAAA5 /* Main.storyboard */; };
 		187F3E0F1EBB12C000ACAAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187F3E0E1EBB12C000ACAAA5 /* Assets.xcassets */; };
 		187F3E121EBB12C000ACAAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187F3E101EBB12C000ACAAA5 /* LaunchScreen.storyboard */; };
+		187F3E1C1EBB13A500ACAAA5 /* LRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F3E1B1EBB13A500ACAAA5 /* LRPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		187F3E0E1EBB12C000ACAAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187F3E111EBB12C000ACAAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187F3E131EBB12C000ACAAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187F3E1A1EBB13A500ACAAA5 /* LRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPerson.h; sourceTree = "<group>"; };
+		187F3E1B1EBB13A500ACAAA5 /* LRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		187F3E191EBB12F000ACAAA5 /* 我的框架 */ = {
 			isa = PBXGroup;
 			children = (
+				187F3E1A1EBB13A500ACAAA5 /* LRPerson.h */,
+				187F3E1B1EBB13A500ACAAA5 /* LRPerson.m */,
 			);
 			path = "我的框架";
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			files = (
 				187F3E0A1EBB12C000ACAAA5 /* ViewController.m in Sources */,
 				187F3E071EBB12C000ACAAA5 /* AppDelegate.m in Sources */,
+				187F3E1C1EBB13A500ACAAA5 /* LRPerson.m in Sources */,
 				187F3E041EBB12C000ACAAA5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
